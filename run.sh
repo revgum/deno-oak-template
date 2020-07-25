@@ -32,5 +32,5 @@ then
   fi
 elif [ "$1" == "local" ]
 then
-  deno run --allow-write --allow-net main.ts
+  deno run --allow-write --allow-net --allow-env main.ts
 fi
