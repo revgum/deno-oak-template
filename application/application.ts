@@ -14,6 +14,4 @@ app.use(async (ctx: Context, next: any) => {
   controller.abort();
 });
 
-export { logger, signal };
-
-export default app;
+export { app, logger, signal };

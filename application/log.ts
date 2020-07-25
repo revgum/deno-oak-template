@@ -1,13 +1,4 @@
-import { log } from "./deps.ts";
-
-interface LogRecord {
-  datetime: Date;
-  msg: string;
-  args: any[];
-  level: number;
-  levelName: string;
-  loggerName?: string;
-}
+import { log, LogRecord } from "./deps.ts";
 
 const argsString = (args: any[]): string => {
   if (!args.length) return "";
