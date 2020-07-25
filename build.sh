@@ -1,2 +1,2 @@
 mkdir -p dist 2>/dev/null
-deno bundle handler.ts > dist/handler.bundle.js
+deno bundle main.ts > dist/main.bundle.js
